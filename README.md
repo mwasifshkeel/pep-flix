@@ -40,7 +40,7 @@ Pepflix is a modern movie queue management website designed to enhance your movi
     ```bash
     npm run dev
     ```
-2. Open your web browser and navigate to `http://localhost:3000` to view the application.
+2. Open your web browser and navigate to `http://localhost:[PORT IN TERMINAL]` to view the application.
 
 ## Key Features and Functionalities Implemented
 
