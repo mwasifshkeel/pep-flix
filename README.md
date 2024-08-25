@@ -23,7 +23,7 @@ Pepflix is a modern movie queue management website designed to enhance your movi
 
 1. Clone the project repository from the source, or download it as a ZIP archive and extract it to your local machine.
     ```bash
-    git clone https://github.com/mwasifshkeel/pepflix.git
+    git clone https://github.com/mwasifshkeel/pep-flix.git
     ```
 2. Navigate to the project directory:
     ```bash
