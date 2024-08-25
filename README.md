@@ -72,7 +72,7 @@ Pepflix is a modern movie queue management website designed to enhance your movi
 
 Check out the demo video showcasing the Pepflix website in action:
 
-[View Demo Video](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7230612567600074752?compact=1)
+<a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7230612567600074752?compact=1" target="_blank" rel="noopener noreferrer">View Demo Video</a>
 
 ## Authors
 
