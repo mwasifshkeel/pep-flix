@@ -27,7 +27,7 @@ Pepflix is a modern movie queue management website designed to enhance your movi
     ```
 2. Navigate to the project directory:
     ```bash
-    cd pepflix
+    cd pep-flix
     ```
 3. Install the necessary dependencies:
     ```bash
