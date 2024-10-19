@@ -29,7 +29,7 @@ function App() {
         const res = await fetch(url);
         const apiData = await res.json();
         localStorage.setItem(localKey, JSON.stringify(apiData));
-        setMovieData(apiData);
+        setMovieData(apiData.results);
       } catch (err) {
         console.log(err.message);
         setMovieData(null);
