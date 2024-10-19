@@ -71,3 +71,47 @@ h1,h2,h3,h4,h5,h6{
   animation: wdthOut 0.3s linear, fadeOut 0.3s linear;
   animation-fill-mode: forwards;
 }
+
+.plot-container {
+  max-height: 100px; 
+  overflow: hidden; 
+}
+
+.plot-container::-webkit-scrollbar {
+  width:4px;
+}
+
+.plot-container::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a; 
+  border-radius: 10px;
+}
+
+.plot-container::-webkit-scrollbar-thumb:hover {
+  background-color: #2c2b29;
+}
+
+.plot-container::-webkit-scrollbar-track {
+  background: #cecece;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffcc00; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffaa00;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
