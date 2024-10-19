@@ -20,7 +20,6 @@ function App() {
       if (localStorage.getItem(localKey)) {
         const apiData = JSON.parse(localStorage.getItem(localKey));
         setMovieData(apiData.results);
-        console.log(apiData);
         return;
       }
 
@@ -29,10 +28,8 @@ function App() {
       try {
         const res = await fetch(url);
         const apiData = await res.json();
-        console.log(apiData);
         localStorage.setItem(localKey, JSON.stringify(apiData));
         setMovieData(apiData);
-        console.log(apiData);
       } catch (err) {
         console.log(err.message);
         setMovieData(null);
