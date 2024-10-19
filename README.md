@@ -1,8 +1,92 @@
-# React + Vite
+# Pepflix: Movie Queue Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+Pepflix is a modern movie queue management website designed to enhance your movie-watching experience. Built with React, Vite, and Tailwind CSS, Pepflix provides an intuitive interface for browsing movies, managing a queue, and storing movie preferences. The website integrates with the [FreeTestAPI](https://freetestapi.com/api/v1/movies) to fetch movie data and features a responsive design with a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Font Awesome Icons
+- Local Storage
+
+## Setup and Run Instructions
+
+### Prerequisites
+
+- Node.js (v16.0.0 or later)
+- npm (v8.0.0 or later)
+
+### Setup Instructions
+
+1. Clone the project repository from the source, or download it as a ZIP archive and extract it to your local machine.
+    ```bash
+    git clone https://github.com/mwasifshkeel/pep-flix.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd pep-flix
+    ```
+3. Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Project
+
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
+2. Open your web browser and navigate to `http://localhost:[PORT IN TERMINAL]` to view the application.
+
+## Key Features and Functionalities Implemented
+
+1. **Header**:
+    - Includes a queue icon that displays the number of movies in the queue.
+    - Clicking the icon opens a sidebar component, `Queue`, which lists all movies in the queue.
+
+2. **Queue Component**:
+    - Displays a list of movies added to the queue.
+    - Provides an organized view of the movies in the queue.
+
+3. **Main Component**:
+    - Manages various movie cards and integrates with the `MovieCard` component.
+    - Handles the presentation of movie information fetched from the API.
+
+4. **MovieCard Component**:
+    - Represents individual movies with details such as title, poster, and description.
+
+5. **Local Storage**:
+    - Stores queue and API data for a day, after which it is reset.
+
+6. **Responsive Design**:
+    - Ensures a clean and user-friendly interface on various devices.
+
+7. **Font Awesome Icons**:
+    - Utilized for enhancing the UI with visually appealing icons.
+
+## Demo Video
+
+Check out the demo video showcasing the Pepflix website in action:
+
+<a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7230612567600074752?compact=1" target="_blank" rel="noopener noreferrer">View Demo Video</a>
+
+## Authors
+
+- [Muhammad Wasif Shakeel](https://github.com/mwasifshkeel)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [FreeTestAPI](https://freetestapi.com/api/v1/movies)
+- [Local Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
