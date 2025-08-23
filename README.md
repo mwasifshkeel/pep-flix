@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Pepflix is a modern movie queue management website designed to enhance your movie-watching experience. Built with React, Vite, and Tailwind CSS, Pepflix provides an intuitive interface for browsing movies, managing a queue, and storing movie preferences. The website integrates with the [FreeTestAPI](https://freetestapi.com/api/v1/movies) to fetch movie data and features a responsive design with a clean UI.
+Pepflix is a modern movie queue management website designed to enhance your movie-watching experience. Built with React, Vite, and Tailwind CSS, Pepflix provides an intuitive interface for browsing movies, managing a queue, and storing movie preferences. The website integrates with the [TMDB API](https://developer.themoviedb.org/docs/finding-data) to fetch movie data and features a responsive design with a clean UI.
 
 ## Technologies Used
 
@@ -88,5 +88,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Font Awesome](https://fontawesome.com/)
-- [FreeTestAPI](https://freetestapi.com/api/v1/movies)
+- [TMDB API](https://developer.themoviedb.org/docs/finding-data)
 - [Local Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
